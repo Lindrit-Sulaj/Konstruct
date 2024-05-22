@@ -1,4 +1,5 @@
 import Hero from "@/sections/hero";
+import About from "@/sections/about";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
           <img src="./images/logo4.svg" alt="Client logo 4" />
         </div>
       </section>
+      <About />
+      <div className="h-screen"></div>
     </main>
   );
 }
