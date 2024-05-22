@@ -1,0 +1,18 @@
+import Hero from "@/sections/hero";
+
+export default function Home() {
+  return (
+    <main>
+      <Hero />
+      <section className="bg-gray-900 py-24 px-4">
+        <div className="max-w-screen-lg mx-auto flex justify-between flex-wrap">
+          <img src="./images/logo1.svg" alt="Client logo 1" />
+          <img src="./images/logo2.svg" alt="Client logo 2" />
+          <img src="./images/logo3.svg" alt="Client logo 3" />
+          <img src="./images/logo4.svg" alt="Client logo 4" />
+        </div>
+      </section>
+      <div className="h-screen"></div>
+    </main>
+  );
+}
