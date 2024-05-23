@@ -1,5 +1,6 @@
 import Hero from "@/sections/hero";
 import About from "@/sections/about";
+import Advantages from "@/sections/advantages";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         </div>
       </section>
       <About />
+      <Advantages />
       <div className="h-screen"></div>
     </main>
   );

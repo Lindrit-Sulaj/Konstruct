@@ -6,8 +6,8 @@ import { Separator } from '@/components/ui/separator'
 export default function About() {
   return (
     <section className="px-4 my-10 lg:my-14 xl:my-20">
-      <div className="max-w-screen-web w-full mx-auto flex gap-x-8">
-        <div className="w-1/2 flex items-end">
+      <div className="md:max-w-3xl lg:max-w-screen-web w-full mx-auto flex flex-col-reverse lg:flex-row gap-x-8 gap-y-12">
+        <div className="w-full lg:w-1/2 flex items-end">
           <div className="w-1/2 relative">
             <Link href="/about" className='absolute hidden lg:block -top-8 -right-12 bg-white p-4 rounded-full'>
               <Button size="icon" className='w-20 h-20 rounded-full'>
@@ -19,12 +19,12 @@ export default function About() {
             <img src="./images/building-area.jpg" alt="Building area" />
           </div>
 
-          <div className='w-1/2 p-4 -ml-10 bg-white -mb-16 z-50'>
+          <div className='w-1/2 p-4 -ml-10 bg-white -mb-16 z-40'>
             <img src="./images/architect-teamwork.jpg" alt="Architect Teamwork" />
           </div>
         </div>
-        <div className="w-1/2">
-          <h3 className='text-lg md:text-xl font-semibold text-primary'>About Us</h3>
+        <div className="w-full lg:w-1/2">
+          <h3 className='text-[17px] md:text-lg lg:text-xl font-semibold text-primary'>About Us</h3>
           <h2 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mt-3'>Where craft meets quality</h2>
           <Separator className='w-1/3 max-w-28 h-1 bg-primary my-5' />
           <p className='text-lg text-gray-700'>At Construction, we're all about top-notch craftsmanship and creative construction solutions. With years of experience, our skilled team is dedicated to bringing your vision to life. We hold ourselves to the highest standards, ensuring every project we take on is completed perfectly and exceeds your expectations.</p>
