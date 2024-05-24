@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from 'next/font/local'
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 const monaSans = localFont({ src: './Mona-Sans.woff2' })
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className={monaSans.className}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
