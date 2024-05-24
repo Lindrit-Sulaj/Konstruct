@@ -3,6 +3,7 @@ import About from "@/sections/about";
 import Advantages from "@/sections/advantages";
 import Services from "@/sections/services";
 import Projects from "@/sections/projects";
+import FAQ from "@/sections/faq";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
       <Advantages />
       <Services />
       <Projects />
-      <div className="h-screen"></div>
+      <FAQ />
     </main>
   );
 }
