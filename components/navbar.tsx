@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import { Separator } from './ui/separator'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { Button } from './ui/button'
 import {
   Sheet,
@@ -14,6 +15,7 @@ import {
 import { useMotionValueEvent, useScroll } from 'framer-motion'
 
 export default function Navbar() {
+  const path = usePathname();
   const { scrollY } = useScroll();
 
   const [withBackground, setWithBackground] = useState(false);
@@ -35,11 +37,11 @@ export default function Navbar() {
             <Separator className='w-1/2 bg-primary h-1' />
           </div>
           <ul className="justify-center items-center gap-x-6 hidden md:flex">
-            <li className='text-primary font-medium'>
+            <li className={path === "/" ? "text-primary font-medium" : "text-gray-700"}>
               <Link href="/">Home</Link>
             </li>
-            <li className='text-gray-700'>
-              <Link href="/">About</Link>
+            <li className={path === "/about" ? "text-primary font-medium" : "text-gray-700"}>
+              <Link href="/about">About</Link>
             </li>
             <li className='text-gray-700'>
               <Link href="/">Services</Link>
