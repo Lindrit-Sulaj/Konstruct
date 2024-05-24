@@ -12,7 +12,7 @@ export default function Projects() {
         <div className="grid grid-cols-1 max-w-lg lg:max-w-none mx-auto gap-y-10 md:gap-y-12 lg:grid-cols-5 gap-x-10 mt-10 px-6 lg:px-0">
           <div className="lg:col-span-2 bg-white rounded-sm relative">
             <img loading="lazy" src="./images/residential-zone1.jpg" className='rounded-t-sm' alt="Residential zone" />
-            <div className="p-8">
+            <div className="px-5 py-6 md:p-8">
               <p className='text-gray-700'>Architecture & Building</p>
               <h4 className='font-bold text-lg md:text-xl mt-1'>Planning & Construction of Residential Zone</h4>
               <p className='text-gray-700 mt-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

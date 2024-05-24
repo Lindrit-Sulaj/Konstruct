@@ -4,6 +4,7 @@ import Advantages from "@/sections/advantages";
 import Services from "@/sections/services";
 import Projects from "@/sections/projects";
 import FAQ from "@/sections/faq";
+import Cta from "@/sections/cta";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Services />
       <Projects />
       <FAQ />
+      <Cta />
     </main>
   );
 }
