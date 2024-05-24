@@ -20,6 +20,7 @@ export default function Home() {
       <Advantages />
       <Services />
       <Projects />
+      <div className="h-screen"></div>
     </main>
   );
 }
