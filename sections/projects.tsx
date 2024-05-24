@@ -9,7 +9,7 @@ export default function Projects() {
         <h3 className='text-[17px] md:text-lg lg:text-xl font-semibold text-cyan-400 md:text-center lg:text-left'>Projects</h3>
         <h2 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mt-2 text-white md:text-center lg:text-left'>Take a look at our best projects</h2>
         <p className='text-white/80 mt-2 text-lg md:text-center lg:text-left max-w-lg md:mx-auto lg:max-w-none lg:mx-0'>We are experienced in completing projects, from small to large in any city of your choice.</p>
-        <div className="grid grid-cols-1 max-w-xl lg:max-w-none mx-auto gap-y-10 md:gap-y-12 lg:grid-cols-5 gap-x-10 mt-10 px-6 lg:px-0">
+        <div className="grid grid-cols-1 md:max-w-xl lg:max-w-none mx-auto gap-y-10 md:gap-y-12 lg:grid-cols-5 gap-x-10 mt-10 px-2 md:px-6 lg:px-0">
           <div className="lg:col-span-2 bg-white rounded-sm relative">
             <img loading="lazy" src="./images/residential-zone1.jpg" className='rounded-t-sm' alt="Residential zone" />
             <div className="px-5 py-6 md:p-8">
