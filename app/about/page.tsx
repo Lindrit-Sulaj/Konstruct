@@ -11,8 +11,8 @@ export default function AboutPage() {
         
         <h1 className='font-extrabold text-2xl md:text-3xl lg:text-4xl lg:leading-[50px] xl:text-5xl 2xl:text-6xl 2xl:leading-[70px] xl:leading-[60px] mt-4 max-w-xl mx-auto text-center'>Unveiling Our Vision and Mission</h1>
         <p className='text-lg text-gray-700 max-w-xl mx-auto text-center mt-4'>For more than twenty years we've been working in the construction & architecture space. It's not just what we do — it's who we are.</p>
-        <div className="grid grid-cols-2 lg:grid-cols-8 lg:grid-rows-6 max-w-screen-xl mx-auto gap-y-2 lg:gap-y-6 gap-x-2 lg:gap-x-4 mt-10">
-          <img className='rounded-2xl col-span-2 lg:col-span-4 lg:row-span-2 w-full h-full object-cover object-top' src="https://ik.imagekit.io/0s9lwb2yr/tr:w-800,h-300/explaining-sketch_V0S49ZOKQ.jpg?updatedAt=1716579211826" alt="Construction Team" />
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 lg:grid-rows-6 max-w-screen-xl mx-auto gap-y-2 lg:gap-y-6 gap-x-2 lg:gap-x-4 mt-10">
+          <img className='rounded-2xl col-span-2 md:col-span-4 lg:row-span-2 w-full h-full object-cover object-top' src="https://ik.imagekit.io/0s9lwb2yr/tr:w-800,h-300/explaining-sketch_V0S49ZOKQ.jpg?updatedAt=1716579211826" alt="Construction Team" />
           <div className="rounded-2xl py-8 lg:py-0 lg:row-start-3 bg-primary text-white flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" className='size-8 text-white' fill="currentColor" viewBox="0 0 24 24">
               <path d="M19,3H5C3.895,3,3,3.895,3,5v14c0,1.105,0.895,2,2,2h14c1.105,0,2-0.895,2-2V5C21,3.895,20.105,3,19,3z M9,17H6.477v-7H9 V17z M7.694,8.717c-0.771,0-1.286-0.514-1.286-1.2s0.514-1.2,1.371-1.2c0.771,0,1.286,0.514,1.286,1.2S8.551,8.717,7.694,8.717z M18,17h-2.442v-3.826c0-1.058-0.651-1.302-0.895-1.302s-1.058,0.163-1.058,1.302c0,0.163,0,3.826,0,3.826h-2.523v-7h2.523v0.977 C13.93,10.407,14.581,10,15.802,10C17.023,10,18,10.977,18,13.174V17z"></path>
@@ -68,30 +68,30 @@ export default function AboutPage() {
               <p className='mt-1 text-gray-800'>Our projects reflect 100% creativity, bringing unique visions to life.</p>
             </div>
           </div>
-          <img className='rounded-2xl col-span-2 lg:col-span-4 lg:row-span-2 w-full h-full object-cover object-top' src="https://ik.imagekit.io/0s9lwb2yr/tr:w-800,h-300/pexels-enginakyurt-1463917_prOAkyyns.jpg" alt="Construction site" />
+          <img className='rounded-2xl col-span-2 md:col-span-4 lg:row-span-2 w-full h-full object-cover object-top' src="https://ik.imagekit.io/0s9lwb2yr/tr:w-800,h-300/pexels-enginakyurt-1463917_prOAkyyns.jpg" alt="Construction site" />
         </div>
       </section>
       <section className='px-4 my-10 md:my-14 lg:my-20'>
-        <div className="max-w-screen-web flex mx-auto">
-          <div className='w-1/2'>
+        <div className="max-w-screen-web flex flex-col gap-y-4 md:flex-row mx-auto">
+          <div className='w-full md:w-1/2'>
             <h3 className='text-[15px] md:text-base uppercase text-gray-500 tracking-wide font-medium'>About Us</h3>
             <h2 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mt-2 lg:mt-3'>Who We Are</h2>
           </div>
 
-          <div className='w-1/2'>
+          <div className='w-full md:w-1/2'>
             <p className='text-lg text-gray-700'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, minus! Quis, quia repellat ad, sunt molestias error ut voluptatibus illum, ipsum temporibus nobis itaque perferendis quisquam fugiat minus libero. Laborum.</p>
             <p className='text-lg text-gray-700 mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, soluta! Magnam, sed eaque asperiores mollitia consectetur assumenda possimus aspernatur, necessitatibus aperiam reprehenderit repudiandae voluptatum ullam expedita ipsa corporis alias dolores!</p>
           </div>
         </div>
       </section>
       <section className="px-4 my-10 md:my-14 lg:my-20">
-        <div className="max-w-screen-web flex mx-auto">
-          <div className="w-1/2">
+        <div className="max-w-screen-web flex flex-col gap-y-4 md:flex-row mx-auto">
+          <div className="w-full md:w-1/2">
             <h3 className='text-[15px] md:text-base uppercase text-gray-500 tracking-wide font-medium'>Our Mission</h3>
             <h2 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mt-2 lg:mt-3 max-w-md'>Leading the Way in Architecture</h2>
           </div>
 
-          <div className='w-1/2'>
+          <div className='w-full md:w-1/2'>
             <p className='text-lg text-gray-700'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, minus! Quis, quia repellat ad, sunt molestias error ut voluptatibus illum, ipsum temporibus nobis itaque perferendis quisquam fugiat minus libero. Laborum.</p>
             <p className='text-lg text-gray-700 mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, soluta! Magnam, sed eaque asperiores mollitia consectetur assumenda possimus aspernatur, necessitatibus aperiam reprehenderit repudiandae voluptatum ullam expedita ipsa corporis alias dolores! Lorem ipsum dolor, sit amet consectetur adipisicing elit.  Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
           </div>
