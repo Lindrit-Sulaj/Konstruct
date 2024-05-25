@@ -33,14 +33,14 @@ export default function AboutPage() {
               <path d="M21.582,6.186c-0.23-0.86-0.908-1.538-1.768-1.768C18.254,4,12,4,12,4S5.746,4,4.186,4.418 c-0.86,0.23-1.538,0.908-1.768,1.768C2,7.746,2,12,2,12s0,4.254,0.418,5.814c0.23,0.86,0.908,1.538,1.768,1.768 C5.746,20,12,20,12,20s6.254,0,7.814-0.418c0.861-0.23,1.538-0.908,1.768-1.768C22,16.254,22,12,22,12S22,7.746,21.582,6.186z M10,15.464V8.536L16,12L10,15.464z"></path>
             </svg>
           </div>
-          <div className="rounded-2xl  gap-y-8 lg:gap-y-0 lg:row-start-5 lg:row-span-2 bg-gray-100 flex flex-col justify-between p-6">
+          <div className="rounded-2xl lg:col-span-2 gap-y-8 lg:gap-y-0 lg:row-start-5 lg:row-span-2 bg-gray-100 flex flex-col justify-between p-6">
             <h5 className='font-semibold text-3xl lg:text-4xl'>2</h5>
             <div>
               <h4 className='font-semibold text-xl'>Offices</h4>
               <p className='mt-1 text-gray-700'>We have an office in Prizren and one in Prishtina.</p>
             </div>
           </div>
-          <div className="rounded-2xl  gap-y-8 lg:gap-y-0 lg:col-start-3 lg:row-start-3 lg:row-span-4 bg-yellow-300 flex flex-col justify-between p-6">
+          <div className="rounded-2xl lg:col-span-2 gap-y-8 lg:gap-y-0 lg:col-start-3 lg:row-start-3 lg:row-span-4 bg-yellow-300 flex flex-col justify-between p-6">
             <h5 className='font-semibold text-3xl lg:text-4xl'>53</h5>
             <div>
               <h4 className='font-semibold text-xl'>Team Members</h4>
