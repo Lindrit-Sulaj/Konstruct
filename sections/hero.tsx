@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function Hero() {
   return (
     <section className='flex flex-col lg:flex-row lg:justify-between lg:h-screen'>
-      <div className='w-full lg:w-2/3 flex justify-center px-6 pt-28 pb-20 lg:py-0 lg:px-0 items-center'>
+      <div className='w-full lg:w-2/3 flex justify-center px-6 pt-28 pb-20 lg:py-0 xl:px-0 items-center'>
         <div className="xl:w-3/4 2xl:w-[60%]">
           <h1 className='font-extrabold text-2xl md:text-3xl lg:text-4xl lg:leading-[50px] xl:text-5xl 2xl:text-6xl 2xl:leading-[70px] xl:leading-[60px]'>We are your trusted <br />full-service construction firm in Kosovo</h1>
           <p className='text-lg text-gray-800 mt-5'>Are you looking for a professional construction company in Prizren? Well, you are in the right place. With years of experience in the industry, we have worked with hundreds of clients and built over 100 residential zones and houses.</p>
