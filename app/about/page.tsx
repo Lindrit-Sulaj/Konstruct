@@ -1,14 +1,17 @@
 import React from 'react'
 import { Badge } from '@/components/ui/badge'
+import { Separator } from '@/components/ui/separator'
+import FAQ from '@/sections/faq'
+import Cta from '@/sections/cta'
 
 export default function AboutPage() {
   return (
     <main>
       <section className='py-20 px-4 mt-[70px]'>
         <div className="flex justify-center">
-        <Badge>About</Badge>
+          <Badge>About</Badge>
         </div>
-        
+
         <h1 className='font-extrabold text-2xl md:text-3xl lg:text-4xl lg:leading-[50px] xl:text-5xl 2xl:text-6xl 2xl:leading-[70px] xl:leading-[60px] mt-4 max-w-xl mx-auto text-center'>Unveiling Our Vision and Mission</h1>
         <p className='text-lg text-gray-700 max-w-xl mx-auto text-center mt-4'>For more than twenty years we've been working in the construction & architecture space. It's not just what we do — it's who we are.</p>
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 lg:grid-rows-6 max-w-screen-xl mx-auto gap-y-2 lg:gap-y-6 gap-x-2 lg:gap-x-4 mt-10">
@@ -71,7 +74,7 @@ export default function AboutPage() {
           <img className='rounded-2xl col-span-2 md:col-span-4 lg:row-span-2 w-full h-full object-cover object-top' src="https://ik.imagekit.io/0s9lwb2yr/tr:w-800,h-300/pexels-enginakyurt-1463917_prOAkyyns.jpg" alt="Construction site" />
         </div>
       </section>
-      <section className='px-4 my-10 md:my-14 lg:my-20'>
+      <section className='px-4 my-8 md:my-14 lg:my-20'>
         <div className="max-w-screen-web flex flex-col gap-y-4 md:flex-row mx-auto">
           <div className='w-full md:w-1/2'>
             <h3 className='text-[15px] md:text-base uppercase text-gray-500 tracking-wide font-medium'>About Us</h3>
@@ -84,7 +87,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-      <section className="px-4 my-10 md:my-14 lg:my-20">
+      <section className="px-4 my-8 md:my-14 lg:my-20">
         <div className="max-w-screen-web flex flex-col gap-y-4 md:flex-row mx-auto">
           <div className="w-full md:w-1/2">
             <h3 className='text-[15px] md:text-base uppercase text-gray-500 tracking-wide font-medium'>Our Mission</h3>
@@ -98,6 +101,66 @@ export default function AboutPage() {
         </div>
 
       </section>
+      <section className="px-4 py-10 md:py-16 lg:py-20 bg-gray-900 text-white">
+        <div className="max-w-screen-web mx-auto">
+          <h2 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mt-2 lg:mt-3 max-w-md'>Our values</h2>
+          <div className="grid grid-cols-1 gap-y-8 md:grid-cols-3 gap-x-8 mt-6">
+            <div className='max-w-lg md:max-w-none'>
+              <Separator className='w-1/3 max-w-20 h-1 bg-primary' />
+              <h3 className="font-bold text-lg lg:text-xl mt-4">Quality Craftsmanship</h3>
+              <p className='text-gray-300 mt-2'>We are committed to delivering the highest standards of quality in every project, ensuring lasting and exceptional results.</p>
+            </div>
+            <div className='max-w-lg md:max-w-none'>
+              <Separator className='w-1/3 max-w-20 h-1 bg-primary' />
+              <h3 className="font-bold text-lg lg:text-xl mt-4">Customer Focus</h3>
+              <p className='text-gray-300 mt-2'>Your satisfaction is our priority. We listen to your needs and work closely with you to bring your vision to life.</p>
+            </div>
+            <div className='max-w-lg md:max-w-none'>
+              <Separator className='w-1/3 max-w-20 h-1 bg-primary' />
+              <h3 className="font-bold text-lg lg:text-xl mt-4">Integrity</h3>
+              <p className='text-gray-300 mt-2'>We operate with honesty and transparency, building trust with our clients through every step of the construction process.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="bg-gray-900 py-16 lg:py-20 px-2 lg:px-4 text-white">
+        <div className="max-w-screen-web mx-auto flex justify-center gap-4 lg:gap-0 lg:justify-between flex-wrap">
+          <img src="./images/logo1.svg" alt="Client logo 1" />
+          <img src="./images/logo2.svg" alt="Client logo 2" />
+          <img src="./images/logo3.svg" alt="Client logo 3" />
+          <img src="./images/logo4.svg" alt="Client logo 4" />
+        </div>
+      </section>
+      <section className="px-4 my-10 md:my-14 lg:my-20 xl:my-24">
+        <div className="max-w-screen-lg mx-auto">
+          <h2 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mt-2 lg:mt-3 text-center'>Meet the team</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 mt-10 gap-x-4 gap-y-10">
+            <div>
+              <img src="https://ik.imagekit.io/0s9lwb2yr/image_64Ypf4VnN.png" className='w-full h-60 md:h-80 object-cover object-top' alt="John Smith" />
+              <h3 className='font-bold text-lg md:text-xl text-center mt-6'>John Smith</h3>
+              <h6 className='text-center text-gray-700'>Co-founder & CEO</h6>
+            </div>
+            <div>
+              <img src="https://ik.imagekit.io/0s9lwb2yr/image_H0Mhq_Z0d.png?updatedAt=1716636199542" className='w-full h-60 md:h-80 object-cover object-top' alt="Emily Davis" />
+              <h3 className='font-bold text-lg md:text-xl text-center mt-6'>Emily Davis</h3>
+              <h6 className='text-center text-gray-700'>Lead architect</h6>
+            </div>
+            <div>
+              <img src="https://ik.imagekit.io/0s9lwb2yr/image_KNNVgebfY.png?updatedAt=1716636336423" className='w-full h-60 md:h-80 object-cover object-top' alt="Michael Brown" />
+              <h3 className='font-bold text-lg md:text-xl text-center mt-6'>Michael Brown</h3>
+              <h6 className='text-center text-gray-700'>Senior Construction Engineer</h6>
+            </div>
+            <div>
+              <img src="https://ik.imagekit.io/0s9lwb2yr/image_JxAdkC_XN.png?updatedAt=1716636534829" className='w-full h-60 md:h-80 object-cover object-top' alt="Daniel Thompson" />
+              <h3 className='font-bold text-lg md:text-xl text-center mt-6'>Daniel Thompson</h3>
+              <h6 className='text-center text-gray-700'>Site Supervisor</h6>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      <FAQ />
+      <Cta />
     </main>
   )
 }
