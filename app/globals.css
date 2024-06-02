@@ -80,3 +80,8 @@
   background: linear-gradient(45deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url('https://ik.imagekit.io/0s9lwb2yr/team-professional-architects_O07DZlkge.jpg');
   @apply bg-center bg-cover bg-no-repeat
 }
+
+.services-bg {
+  background: linear-gradient(45deg, rgba(0, 14, 59, 0.75), rgba(0, 14, 59, 0.75)), url("https://ik.imagekit.io/utnmvphg1/Konstruction/pexels-wdnet-224924.jpg?updatedAt=1717318363923");
+  @apply bg-center bg-cover bg-no-repeat
+}

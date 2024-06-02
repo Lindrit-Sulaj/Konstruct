@@ -47,16 +47,16 @@ export default function Footer() {
               <Link href="/">Home</Link>
             </li>
             <li className='my-3 text-center md:text-left'>
-              <Link href="/">About</Link>
+              <Link href="/about">About</Link>
             </li>
             <li className='my-3 text-center md:text-left'>
-              <Link href="/">Projects</Link>
+              <Link href="/#projects">Projects</Link>
             </li>
             <li className='my-3 text-center md:text-left'>
               <Link href="/">Imprint</Link>
             </li>
             <li className='my-3 text-center md:text-left'>
-              <Link href="/">Contact</Link>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </div>

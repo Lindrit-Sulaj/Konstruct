@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 
 export default function Projects() {
   return (
-    <section className="bg-gray-900 lg:pt-10 pb-20 lg:pb-28 px-4">
+    <section id="projects" className="bg-gray-900 lg:pt-10 pb-20 lg:pb-28 px-4">
       <div className="max-w-screen-web mx-auto">
         <h3 className='text-[17px] md:text-lg lg:text-xl font-semibold text-cyan-400 md:text-center lg:text-left'>Projects</h3>
         <h2 className='text-xl md:text-2xl lg:text-3xl xl:text-4xl font-bold mt-2 text-white md:text-center lg:text-left'>Take a look at our best projects</h2>

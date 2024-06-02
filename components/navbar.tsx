@@ -43,8 +43,8 @@ export default function Navbar() {
             <li className={path === "/about" ? "text-primary font-medium" : "text-gray-700"}>
               <Link href="/about">About</Link>
             </li>
-            <li className='text-gray-700'>
-              <Link href="/">Services</Link>
+            <li className={path === "/services" ? "text-primary font-medium" : "text-gray-700"}>
+              <Link href="/services">Services</Link>
             </li>
             <li className='text-gray-700'>
               <Link href="/">Projects</Link>
